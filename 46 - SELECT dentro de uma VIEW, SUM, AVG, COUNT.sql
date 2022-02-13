@@ -1,0 +1,1 @@
+select COUNT(codigoE) as 'Quantidade Eletrico/Hidraulico', SUM(valor) as 'Soma Eletrico/Hidraulico', AVG(valor) as 'Media Eletrico/Hidraulico' from View_Eletrico_Hidraulico

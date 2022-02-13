@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM MaterialGeral GROUP BY descricao ORDER BY descricao

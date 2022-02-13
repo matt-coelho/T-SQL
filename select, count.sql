@@ -1,0 +1,1 @@
+select descricao, count(*) from MaterialGeral group by descricao order by descricao

@@ -1,0 +1,1 @@
+select codigoForn,count(*) as TOTAL from Produto group by codigoForn order by codigoForn

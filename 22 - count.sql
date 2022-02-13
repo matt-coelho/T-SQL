@@ -1,0 +1,1 @@
+select count(*) as 'TOTAL DE REGISTROS DA TABELA PRODUTO' from Produto

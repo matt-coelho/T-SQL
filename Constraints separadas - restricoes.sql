@@ -1,0 +1,7 @@
+alter table Cliente add CONSTRAINT check_Pontuacao CHECK(pontuacao > 0 and pontuacao <=10)
+alter table Cliente add CONSTRAINT check_Situacao CHECK(situacao IN ('A','I'))
+alter table Cliente add CONSTRAINT check_Pontuacao CHECK(pontuacao >=0 and pontuacao <=10)
+alter table Cliente add CONSTRAINT check_Cpf_Unique UNIQUE(cpf)
+alter table Produto add CONSTRAINT check_QuantidadeItem CHECK (quantidade >0)
+alter table Produto add CONSTRAINT check_Minimo CHECK (minimo >0)
+alter table Produto add CONSTRAINT check_Maximo CHECK (maximo >0)

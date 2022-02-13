@@ -1,0 +1,1 @@
+CREATE VIEW View_Quantidade_Clientes AS (SELECT E, TOTAL from (select estado as E, COUNT(estado) as TOTAL from Cliente Group BY estado) as primeira where TOTAL > 15)

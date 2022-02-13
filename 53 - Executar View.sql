@@ -1,0 +1,1 @@
+select * from View_Cliente_Pedido

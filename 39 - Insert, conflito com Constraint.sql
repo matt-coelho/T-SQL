@@ -1,0 +1,1 @@
+INSERT into Cliente (nome, sexo, situacao, pontuacao) VALUES ('Valentim','M','A', 11)

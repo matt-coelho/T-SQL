@@ -1,0 +1,1 @@
+select ('Código: '+CAST(cli.codigoCli as varchar) +'; '+ cli.nome) as 'DADOS DO CLIENTE', ('Valor do Pedido: '+ CAST(ped.valorTotal as varchar)) from Cliente as cli INNER JOIN Pedido as ped ON ped.codigoCli = cli.codigoCli ORDER BY cli.codigoCli

@@ -1,0 +1,1 @@
+INSERT INTO Cliente (nome, sexo, situacao, pontuacao, cpf) VALUES ('Mafalda', 'F', 'A', 6, 23239432862)

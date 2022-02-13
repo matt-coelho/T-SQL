@@ -1,0 +1,1 @@
+CREATE VIEW vw_EstatisticaHidraulico AS SELECT COUNT(codigoH) as 'Quantidade Material Hidraulico', AVG(valor) as 'Soma Material Hidraulico', AVG(valor) as 'Media Material Hidraulico' from MaterialHidraulico

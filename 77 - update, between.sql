@@ -1,0 +1,1 @@
+update MaterialGeral set descricao = 'X' where codigoGeral between 950000 AND 1200000

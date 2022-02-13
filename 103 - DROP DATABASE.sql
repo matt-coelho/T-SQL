@@ -1,0 +1,1 @@
+drop database CLIENTES_E_PEDIDOS2

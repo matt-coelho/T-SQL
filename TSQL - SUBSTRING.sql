@@ -1,0 +1,1 @@
+SELECT usuario, SUBSTRING(usuario, 2, 5) as 'segunda a quinta letras do nome' from usuarios

@@ -1,0 +1,1 @@
+select ped.data, ped.valorTotal, cli.nome, cli.situacao from Pedido as ped LEFT OUTER JOIN Cliente as cli ON cli.codigoCli = ped.codigoCli

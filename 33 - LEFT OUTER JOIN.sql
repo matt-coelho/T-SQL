@@ -1,0 +1,1 @@
+select cli.nome, cli.situacao, ped.data, CAST(ped.valorTotal as varchar) from Cliente as cli LEFT OUTER JOIN Pedido as ped ON ped.codigoCli = cli.codigoCli

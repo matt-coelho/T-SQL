@@ -1,0 +1,1 @@
+select cli.nome as Cliente, iped.valor as Valor, iped.quantidade as Quantidade, ped.valorTotal as Total from Cliente as cli INNER JOIN Pedido as ped ON ped.codigoCli = cli.codigoCli INNER JOIN ItemPedido as iped ON iped.numeroPed = ped.numeroPed where ped.valorTotal > 1 ORDER BY nome

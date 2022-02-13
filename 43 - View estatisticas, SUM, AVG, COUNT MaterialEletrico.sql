@@ -1,0 +1,1 @@
+CREATE VIEW vw_EstatisticaEletrico AS SELECT COUNT(codigoE) as 'Quantidade Material Eletrico', AVG(valor) as 'Soma Material Eletrico', AVG(valor) as 'Media Material Eletrico' from MaterialEletrico

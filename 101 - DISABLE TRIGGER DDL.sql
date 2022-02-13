@@ -1,0 +1,1 @@
+DISABLE TRIGGER trgSegurancaDropTable ON DATABASE

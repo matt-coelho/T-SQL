@@ -1,0 +1,1 @@
+select COUNT(codigoGeral) from MaterialGeral
